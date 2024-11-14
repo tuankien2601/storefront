@@ -1,0 +1,5 @@
+mutation {
+  generateCustomerToken(email: "customer@example.com", password: "password") {
+    token
+  }
+}
